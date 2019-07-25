@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Flutter Go 官方</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link rel="icon"
+    href="https://camo.githubusercontent.com/897898920fafe08f9abb7e671cfee0b69dfe4605/68747470733a2f2f696d672e616c6963646e2e636f6d2f7466732f5442314f4a6b65484e59614b31526a535a466e58586138307058612d3232392d3232392e706e67"
+    type="image/x-icon">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/new-age.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper.min.css">
+
+  <style>
+    .swiper-container {
+      width: 286px;
+      height: 503px;
+      margin-left: 2px;
+    }
+  
+    /* .github-btn-large {
+      height: 30px;
+    }
+  
+    .github-btn {
+      font: bold 11px/14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      height: 20px;
+      overflow: hidden;
+    } */
+
+    .gh-btn {
+      background-color: #eee;
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fcfcfc), color-stop(100%, #eee));
+      background-image: -webkit-linear-gradient(top, #fcfcfc 0, #eee 100%);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fcfcfc), to(#eee));
+      background-image: linear-gradient(to bottom, #fcfcfc 0, #eee 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#eeeeee', GradientType=0);
+      background-repeat: no-repeat;
+      border: 1px solid #d5d5d5;
+      padding: 2px 5px 2px 4px;
+      color: #333;
+      text-decoration: none;
+      white-space: nowrap;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+
+    .gh-count {
+      position: relative;
+      display: none;
+      margin-left: 4px;
+      background-color: #fafafa;
+      border: 1px solid #d4d4d4;
+      color: #333;
+      text-decoration: none;
+      white-space: nowrap;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+
+  </style>
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger " href="#page-top">
+        <img
+          src="https://camo.githubusercontent.com/897898920fafe08f9abb7e671cfee0b69dfe4605/68747470733a2f2f696d672e616c6963646e2e636f6d2f7466732f5442314f4a6b65484e59614b31526a535a466e58586138307058612d3232392d3232392e706e67"
+          alt="Flutter Go Logo" width="40" height="40" style="vertical-align:middle" />
+        Flutter Go 官网
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#download">Download</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead">
+    <div class="container h-100" style="background:url(https://www.timepot.io/public/img/slides/slide1-bg-ff.svg)">
+      <div class="row h-100">
+        <div class="col-lg-7 my-auto">
+          <div class="header-content mx-auto">
+            <h1>Flutter GO</h1>
+            <h2 class="mb-1">一个开发者帮助 APP,包含 flutter 常用 140+ 组件的demo 演示与中文文档</h2>
+
+            <div style="margin-top: 0.5rem">
+              <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="110px" height="20px"
+                src="https://ghbtns.com/github-btn.html?user=alibaba&repo=flutter-go&type=star&count=true">
+              </iframe>
+            </div>
+          
+            <a href="https://github.com/alibaba/flutter-go" style="margin-top: 1rem;background-color: #7b4397;color: white"
+              class="btn btn-lg js-scroll-trigger" target="_blank">
+              <h6 class="m-0">开始使用</h6>
+            </a>
+          
+            <a href="#" style="margin-top: 1rem" class="btn btn-outline btn-lg js-scroll-trigger" data-toggle="modal"
+              data-target="#video-modal">
+              <h6 class="m-0">Flutter Go 教学</h6>
+            </a>
+          
+          </div>
+        </div>
+        <div class="col-lg-5" style="margin-top: 4rem">
+          <div class="device-container">
+            <div class="device-mockup iphone6_plus portrait white">
+              <div class="device">
+                <div class="screen">
+                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                  <!--<img src="img/demo-screen-1.jpg" class="img-fluid" alt="">-->
+                  <iframe width="287" height="501" frameborder="1" scrolling="no"
+                    src="https://flutter-go.pub/flutter_go_web/"></iframe>
+                </div>
+                <div class="button">
+                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                </div>
+              </div>
+            </div>
+            <div class="text-center mt-3">
+              <a href="#"
+                onclick="window.open('https://flutter-go.pub/flutter_go_web/', '_blank', 'height=667,width=375,resizable=yes,toolbar=no,location=no,directories=no,status=yrd,menubar=no,scrollbars=no')"
+                )>
+                <button type="button" style="cursor: pointer;" class="btn btn-warning btn-xs">
+                  <h6 class="m-0">查看 Flutter GO Web 完整版</h6>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="download bg-primary text-center" id="download">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <h2 class="section-heading"> Flutter Go 官方 APP 的最佳实践 </h2>
+          <p>已提供 Andorid & Apple Store 的下载</p>
+          <div class="badges">
+            <a class="badge-link" href="https://github.com/alibaba/flutter-go/blob/master/FlutterGo.apk"
+              target="_blank"><img src="img/google-play-badge.png" height="168" width="202.5" alt=""></a>
+            <a class="badge-link" href="https://apps.apple.com/cn/app/flutter-go/id1462026296" target="_blank"><img
+                src="img/app-store-badge.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-heading text-center">
+        <h2>无论是为了创作，学习，还是仅仅为了提高效率，希望能助你一臂之力</h2>
+        <p class="text-muted">Flutter Go 是完全开源的。它的代码托管、开发、维护都依赖 GitHub 平台</p>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 my-auto">
+          <div class="device-container">
+            <div class="device-mockup iphone6_plus portrait white" style="padding-bottom: 197%;">
+              <div class="device">
+                <div class="screen">
+                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                  <!--<img src="img/demo-screen-1.jpg" class="img-fluid" alt="">-->
+                  <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img/f1.png" width="286" height="503" class="img-fluid" alt="">
+                      </div>
+                      <div class="swiper-slide"><img src="img/f2.png" width="286" height="503" class="img-fluid" alt="">
+                      </div>
+                      <div class="swiper-slide"><img src="img/f3.png" width="286" height="503" class="img-fluid" alt="">
+                      </div>
+                      <div class="swiper-slide"><img src="img/f4.png" width="286" height="503" class="img-fluid" alt="">
+                      </div>
+                      <div class="swiper-slide"><img src="img/f5.png" width="286" height="503" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="button">
+                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 my-auto">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="icon-screen-smartphone text-primary"></i>
+                  <h3>Flutter Go是什么？</h3>
+                  <p class="text-muted">
+                    <h6>[阿里拍卖] 几位 Flutter 粉丝</h6>
+                    <h6>用业余时间开发</h6>
+                    <h6>用于 Flutter 教学帮助的App</h6>
+                    <h6>没有高大尚的概念，只有亲历的尝试</h6>
+                    <h6>最直观的方式展示的Flutter官方demo</h6>
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="icon-camera text-primary"></i>
+                  <h3>Flutter Go的背景</h3>
+                  <p class="text-muted">
+                    <h6>官网文档示例较不够健全，不够直观</h6>
+                    <h6>运行widget demo要到处翻阅资料</h6>
+                    <h6>英文文档翻译生涩难懂，学习资料太少</h6>
+                    <h6>需要的效果不知道用哪个widget</h6>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="icon-present text-primary"></i>
+                  <h3>Flutter Go的特点</h3>
+                  <p class="text-muted">
+                    <h6>详解常用widget多达 140+ 个</h6>
+                    <h6>持续迭代追新官方版本</h6>
+                    <h6>配套Demo详解widget用法</h6>
+                    <h6>一站式搞定所有常用widget,开箱即查</h6>
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="icon-lock-open text-primary"></i>
+                  <h3>Flutter Go的新功能</h3>
+                  <p class="text-muted">
+                    <h6>Flutter Go web 版本发布</h6>
+                    <h6>官方 IOS 版本发布</h6>
+                    <h6>动态存取 MakerDown</h6>
+                    <h6>个人用户中心功能上线</h6>
+                    <h6>新版本发布自动推新</h6>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--<section class="cta" style="background-image: url(https://s3.amazonaws.com/www-inside-design/uploads/2018/07/atlas-featured_image-2x-810x810.jpg)">-->
+  <section class="cta"
+    style="background-image: url(https://s3.amazonaws.com/www-inside-design/uploads/2018/11/rawpixel-579255-unsplash-sq-sq-810x810.jpg)">
+    <div class="cta-content">
+      <div class="container">
+        <h2>Stop waiting.<br>Start building.</h2>
+        <a href="https://flutter.dev/" class="btn btn-outline btn-xl js-scroll-trigger">
+          <h6 class="m-0">Flutter 官方地址</h6>
+        </a>
+      </div>
+    </div>
+    <div class="overlay"></div>
+
+  </section>
+
+  <!-- <div class="video-btn-block">
+      <a href="#" class="video-btn"  data-toggle="modal" data-target="#video-modal"><i class="fa fa-play-circle-o" aria-hidden="true"></i><span class="text_modal">公司介绍</span></a>
+  </div> -->
+
+  <section class="contact bg-primary" id="contact">
+    <div class="container">
+      <h4>
+        <i class="fas fa-heart"></i>
+        Powered by【阿里拍卖】
+        前端团队 </h4>
+      <!--<ul class="list-inline list-social">-->
+      <!--<li class="list-inline-item social-twitter">-->
+      <!--<a href="#">-->
+      <!--<i class="fab fa-twitter"></i>-->
+      <!--</a>-->
+      <!--</li>-->
+      <!--<li class="list-inline-item social-facebook">-->
+      <!--<a href="#">-->
+      <!--<i class="fab fa-facebook-f"></i>-->
+      <!--</a>-->
+      <!--</li>-->
+      <!--<li class="list-inline-item social-google-plus">-->
+      <!--<a href="#">-->
+      <!--<i class="fab fa-google-plus-g"></i>-->
+      <!--</a>-->
+      <!--</li>-->
+      <!--</ul>-->
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; Your Website 2019. All Rights Reserved.</p>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="#">Privacy</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#">Terms</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#">FAQ</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <!--视频播放start-->
+  <div class="modal fade welcom-modal" id="video-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" style="width: 1rm;max-width: 680px;" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title" id="myModalLabel">Flutter Go 使用教学</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        </div>
+        <!-- <div style="text-align: center;" class="embed-responsive embed-responsive-16by9">
+            <iframe height=498 width=510 src='http://player.youku.com/embed/XNDA3NTY2NDUwNA==' class="embed-responsive-item" frameborder="0" rameborder=0 'allowfullscreen'></iframe>
+        </div> -->
+        <div class="modal-body">
+          <div align="center" class="embed-responsive embed-responsive-16by9">
+            <video autoplay controls id="myVideo" class="embed-responsive-item">
+              <source src="video/use_1.mp4" type="video/mp4">
+              你的游览器不支持此视频播放
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--视频播放end-->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/swiper.min.js"></script>
+    <script src="js/new-age.min.js"></script>
+
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        autoplay: true,
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      });
+    </script>
+
+    <script type="text/javascript">
+      $(function () {
+        // dom加载完毕
+        //var $m_btn = $('#modalBtn');
+        var $modal = $('#video-modal');
+        // $m_btn.on('click', function(){
+        //   $modal.modal({backdrop: 'static'});
+        // });
+
+        // 测试 bootstrap 居中
+        $modal.on('show.bs.modal', function () {
+          var $this = $(this);
+          var $modal_dialog = $this.find('.modal-dialog');
+          // 关键代码，如没将modal设置为 block，则$modala_dialog.height() 为零
+          $this.css('display', 'block');
+          $modal_dialog.css({ 'margin-top': Math.max(0, ($(window).height() - $modal_dialog.height()) / 2) });
+        });
+        $modal.on('hide.bs.modal', function () {
+          var my_video = document.getElementById("myVideo");
+          my_video.pause();
+        });
+
+      });
+    </script>
+
+</body>
+
+</html>
