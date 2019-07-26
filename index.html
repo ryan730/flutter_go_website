@@ -374,7 +374,7 @@
             "url": "https://api.github.com/users/minghe",
         }
         $.ajax({
-          url: "https://api.github.com/repos/alibaba/flutter-go/contributors",
+          url: "https://api.github.com/repos/alibaba/flutter-go/contributors"+"?&access_token=466f80a761962d30adc0fda7d23b1536963936ad",
           dataType: "json",
           success(val) {
             console.log('=====================', val);
