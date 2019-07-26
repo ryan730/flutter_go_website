@@ -5,8 +5,9 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="keywords" content="Flutter,Dart,Web,javascript">
+  <meta name="description" content="辅助 flutter 官方的帮助学习app,组件开发指南" />
+  <meta name="author" content="Alibaba Group,Taobao,Paimai">
 
   <title>Flutter Go 官方</title>
 
@@ -37,47 +38,6 @@
       height: 503px;
       margin-left: 2px;
     }
-  
-    /* .github-btn-large {
-      height: 30px;
-    }
-  
-    .github-btn {
-      font: bold 11px/14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      height: 20px;
-      overflow: hidden;
-    } */
-
-    .gh-btn {
-      background-color: #eee;
-      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fcfcfc), color-stop(100%, #eee));
-      background-image: -webkit-linear-gradient(top, #fcfcfc 0, #eee 100%);
-      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fcfcfc), to(#eee));
-      background-image: linear-gradient(to bottom, #fcfcfc 0, #eee 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#eeeeee', GradientType=0);
-      background-repeat: no-repeat;
-      border: 1px solid #d5d5d5;
-      padding: 2px 5px 2px 4px;
-      color: #333;
-      text-decoration: none;
-      white-space: nowrap;
-      cursor: pointer;
-      border-radius: 3px;
-    }
-
-    .gh-count {
-      position: relative;
-      display: none;
-      margin-left: 4px;
-      background-color: #fafafa;
-      border: 1px solid #d4d4d4;
-      color: #333;
-      text-decoration: none;
-      white-space: nowrap;
-      cursor: pointer;
-      border-radius: 3px;
-    }
-
   </style>
 
 </head>
@@ -87,7 +47,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger " href="#page-top">
+      <a titie="page-top" class="navbar-brand js-scroll-trigger " href="#page-top">
         <img
           src="https://camo.githubusercontent.com/897898920fafe08f9abb7e671cfee0b69dfe4605/68747470733a2f2f696d672e616c6963646e2e636f6d2f7466732f5442314f4a6b65484e59614b31526a535a466e58586138307058612d3232392d3232392e706e67"
           alt="Flutter Go Logo" width="40" height="40" style="vertical-align:middle" />
@@ -102,13 +62,13 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#download">Download</a>
+            <a titie="download" class="nav-link js-scroll-trigger" href="#download">Download</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+            <a titie="features" class="nav-link js-scroll-trigger" href="#features">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a titie="contact" class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -124,21 +84,23 @@
             <h2 class="mb-1">一个开发者帮助 APP,包含 flutter 常用 140+ 组件的demo 演示与中文文档</h2>
 
             <div style="margin-top: 0.5rem">
-              <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="110px" height="20px"
+              <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="110px"
+                height="20px"
                 src="https://ghbtns.com/github-btn.html?user=alibaba&repo=flutter-go&type=star&count=true">
               </iframe>
             </div>
-          
-            <a href="https://github.com/alibaba/flutter-go" style="margin-top: 1rem;background-color: #7b4397;color: white"
-              class="btn btn-lg js-scroll-trigger" target="_blank">
+
+            <a href="https://github.com/alibaba/flutter-go"
+              style="margin-top: 1rem;background-color: #7b4397;color: white" class="btn btn-lg js-scroll-trigger"
+              target="_blank">
               <h6 class="m-0">开始使用</h6>
             </a>
-          
-            <a href="#" style="margin-top: 1rem" class="btn btn-outline btn-lg js-scroll-trigger" data-toggle="modal"
-              data-target="#video-modal">
+
+            <a titie="Flutter Go 教学" href="#" style="margin-top: 1rem" class="btn btn-outline btn-lg js-scroll-trigger"
+              data-toggle="modal" data-target="#video-modal">
               <h6 class="m-0">Flutter Go 教学</h6>
             </a>
-          
+
           </div>
         </div>
         <div class="col-lg-5" style="margin-top: 4rem">
@@ -157,7 +119,7 @@
               </div>
             </div>
             <div class="text-center mt-3">
-              <a href="#"
+              <a href="#" titie="flutter_go_web"
                 onclick="window.open('https://flutter-go.pub/flutter_go_web/', '_blank', 'height=667,width=375,resizable=yes,toolbar=no,location=no,directories=no,status=yrd,menubar=no,scrollbars=no')"
                 )>
                 <button type="button" style="cursor: pointer;" class="btn btn-warning btn-xs">
@@ -178,10 +140,11 @@
           <h2 class="section-heading"> Flutter Go 官方 APP 的最佳实践 </h2>
           <p>已提供 Andorid & Apple Store 的下载</p>
           <div class="badges">
-            <a class="badge-link" href="https://github.com/alibaba/flutter-go/blob/master/FlutterGo.apk"
-              target="_blank"><img src="img/google-play-badge.png" height="168" width="202.5" alt=""></a>
-            <a class="badge-link" href="https://apps.apple.com/cn/app/flutter-go/id1462026296" target="_blank"><img
-                src="img/app-store-badge.svg" alt=""></a>
+            <a titie="FlutterGo.apk" class="badge-link"
+              href="https://github.com/alibaba/flutter-go/blob/master/FlutterGo.apk" target="_blank"><img
+                src="img/google-play-badge.png" height="168" width="202.5" alt=""></a>
+            <a titie="FlutterGo.ios" class="badge-link" href="https://apps.apple.com/cn/app/flutter-go/id1462026296"
+              target="_blank"><img src="img/app-store-badge.svg" alt=""></a>
           </div>
         </div>
       </div>
@@ -290,12 +253,13 @@
   </section>
 
   <!--<section class="cta" style="background-image: url(https://s3.amazonaws.com/www-inside-design/uploads/2018/07/atlas-featured_image-2x-810x810.jpg)">-->
-  <section class="cta"
-    style="background-image: url(https://s3.amazonaws.com/www-inside-design/uploads/2018/11/rawpixel-579255-unsplash-sq-sq-810x810.jpg)">
+  <!-- <section class="cta"
+    style="background-image: url(https://s3.amazonaws.com/www-inside-design/uploads/2018/11/rawpixel-579255-unsplash-sq-sq-810x810.jpg)"> -->
+  <section class="cta" style="background-image: url(img/bg.jpg)">
     <div class="cta-content">
       <div class="container">
         <h2>Stop waiting.<br>Start building.</h2>
-        <a href="https://flutter.dev/" class="btn btn-outline btn-xl js-scroll-trigger">
+        <a titie="Flutter 官方地址" href="https://flutter.dev/" class="btn btn-outline btn-xl js-scroll-trigger">
           <h6 class="m-0">Flutter 官方地址</h6>
         </a>
       </div>
@@ -311,10 +275,11 @@
   <section class="contact bg-primary" id="contact">
     <div class="container">
       <h4>
-        <i class="fas fa-heart"></i>
+        <i class="fas fa-heart" style="color: red"></i>
         Powered by【阿里拍卖】
-        前端团队 </h4>
-      <!--<ul class="list-inline list-social">-->
+        前端团队
+      </h4>
+      <!-- <ul class="list-inline list-social">-->
       <!--<li class="list-inline-item social-twitter">-->
       <!--<a href="#">-->
       <!--<i class="fab fa-twitter"></i>-->
@@ -330,21 +295,27 @@
       <!--<i class="fab fa-google-plus-g"></i>-->
       <!--</a>-->
       <!--</li>-->
-      <!--</ul>-->
-    </div>
+      <!--</ul> -->
+
+      <div style="display: flex;justify-content: center; flex-wrap: wrap;padding: 20px 0 0 0;">
+        <h5>🏆 Core Team [开发] & Contributors [贡献] </h5>
+        <ul id="contributions" style="display: inline-block;margin: 0;margin: 1rem;">
+        </ul>
+        <a title="contributors" href="https://github.com/alibaba/flutter-go/graphs/contributors"><h6 style="color: black;">👏 期待你的参与贡献, 共建 Flutter Go 社区</h6></a>
+      </div>
   </section>
 
   <footer>
     <div class="container">
-      <p>&copy; Your Website 2019. All Rights Reserved.</p>
+      <p>&copy; flutter-go.pub 2019. All Rights Reserved.</p>
       <ul class="list-inline">
         <li class="list-inline-item">
-          <a href="#">Privacy</a>
+          <a titie="Privacy" href="#">Privacy</a>
         </li>
-        <li class="list-inline-item">
+        <li titie="Terms" class="list-inline-item">
           <a href="#">Terms</a>
         </li>
-        <li class="list-inline-item">
+        <li titie="FAQ" class="list-inline-item">
           <a href="#">FAQ</a>
         </li>
       </ul>
@@ -397,6 +368,47 @@
 
     <script type="text/javascript">
       $(function () {
+        var contris = {
+            "login": "minghe",
+            "avatar_url": "https://github.com/minghe.png?s=128",
+            "url": "https://api.github.com/users/minghe",
+        }
+        $.ajax({
+          url: "https://api.github.com/repos/alibaba/flutter-go/contributors",
+          dataType: "json",
+          success(val) {
+            console.log('=====================', val);
+            if (val && val.length > 0) {
+              val.unshift(contris);
+              var arr = val.map(function (it) {
+                var li = `
+                <li style="list-style-type:none;float: left;margin:0 10px;width: 80px;flex: 1;padding: 10px 0">
+                  <a href="`+ it.url + `">
+                      <img src="`+ it.avatar_url + `" width="30" height="30" alt="1" />
+                      <div style="font-size:11px;color:black">`+ it.login + `</div>
+                  </a>
+                </li>
+                `
+                return li;
+              })
+
+              var result = arr.join('');
+              $('#contributions').html(result);
+            }
+          },
+          error() {
+
+          }
+        })
+
+        var swiper = new Swiper('.swiper-container', {
+          autoplay: true,
+          loop: true,
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+
         var my_video = document.getElementById("myVideo");
         my_video.pause();
         // dom加载完毕
